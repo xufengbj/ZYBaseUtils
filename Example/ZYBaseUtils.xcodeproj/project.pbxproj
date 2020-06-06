@@ -8,6 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5F8FE68B248A386200C07D5D /* DYTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE689248A386200C07D5D /* DYTestModel.m */; };
+		5F8FE6D6248A3DD500C07D5D /* ZYDeviceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE68F248A3DD400C07D5D /* ZYDeviceTool.m */; };
+		5F8FE6D7248A3DD500C07D5D /* ZYPermissionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE692248A3DD400C07D5D /* ZYPermissionTool.m */; };
+		5F8FE6D8248A3DD500C07D5D /* ZYPermissionSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE693248A3DD400C07D5D /* ZYPermissionSetting.m */; };
+		5F8FE6D9248A3DD500C07D5D /* ZYLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE699248A3DD400C07D5D /* ZYLogTool.m */; };
+		5F8FE6DA248A3DD500C07D5D /* ZYPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE69B248A3DD400C07D5D /* ZYPlaceHolderTextView.m */; };
+		5F8FE6DB248A3DD500C07D5D /* ZYKeyboardTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE69C248A3DD400C07D5D /* ZYKeyboardTool.m */; };
+		5F8FE6DC248A3DD500C07D5D /* ZYValidateTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE69D248A3DD400C07D5D /* ZYValidateTextView.m */; };
+		5F8FE6DD248A3DD500C07D5D /* ZYPathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6A8248A3DD400C07D5D /* ZYPathTool.m */; };
+		5F8FE6DE248A3DD500C07D5D /* ZYLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6AC248A3DD400C07D5D /* ZYLanguageTool.m */; };
+		5F8FE6DF248A3DD500C07D5D /* ZYFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6AE248A3DD400C07D5D /* ZYFileTool.m */; };
+		5F8FE6E0248A3DD500C07D5D /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6B1248A3DD400C07D5D /* NSObject+Additions.m */; };
+		5F8FE6E1248A3DD500C07D5D /* UIColor+ZYDarkColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6B2248A3DD400C07D5D /* UIColor+ZYDarkColor.m */; };
+		5F8FE6E2248A3DD500C07D5D /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6B3248A3DD400C07D5D /* NSDictionary+Additions.m */; };
+		5F8FE6E3248A3DD500C07D5D /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6B4248A3DD400C07D5D /* UIView+Addition.m */; };
+		5F8FE6E4248A3DD500C07D5D /* UITextView+WZB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6B8248A3DD400C07D5D /* UITextView+WZB.m */; };
+		5F8FE6E5248A3DD500C07D5D /* UILabel+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6BC248A3DD400C07D5D /* UILabel+Copy.m */; };
+		5F8FE6E6248A3DD500C07D5D /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6BF248A3DD400C07D5D /* NSData+CommonCrypto.m */; };
+		5F8FE6E7248A3DD500C07D5D /* NSString+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6C0248A3DD400C07D5D /* NSString+Addition.m */; };
+		5F8FE6E8248A3DD500C07D5D /* ZYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6C4248A3DD400C07D5D /* ZYBaseView.m */; };
+		5F8FE6E9248A3DD500C07D5D /* ZYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6C7248A3DD400C07D5D /* ZYBaseViewController.m */; };
+		5F8FE6EA248A3DD500C07D5D /* ZYBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6C9248A3DD400C07D5D /* ZYBaseModel.m */; };
+		5F8FE6EB248A3DD500C07D5D /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6CE248A3DD500C07D5D /* NSObject+YYModel.m */; };
+		5F8FE6EC248A3DD500C07D5D /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6CF248A3DD500C07D5D /* YYClassInfo.m */; };
+		5F8FE6ED248A3DD500C07D5D /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6D1248A3DD500C07D5D /* TestModel.m */; };
+		5F8FE6EE248A3DD500C07D5D /* ZYBasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8FE6D4248A3DD500C07D5D /* ZYBasePresenter.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,6 +69,63 @@
 		57C93B8CAE9045EC51AC71ED /* ZYBaseUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYBaseUtils.podspec; path = ../ZYBaseUtils.podspec; sourceTree = "<group>"; };
 		5F8FE689248A386200C07D5D /* DYTestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYTestModel.m; sourceTree = "<group>"; };
 		5F8FE68A248A386200C07D5D /* DYTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYTestModel.h; sourceTree = "<group>"; };
+		5F8FE68F248A3DD400C07D5D /* ZYDeviceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYDeviceTool.m; sourceTree = "<group>"; };
+		5F8FE690248A3DD400C07D5D /* ZYDeviceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDeviceTool.h; sourceTree = "<group>"; };
+		5F8FE692248A3DD400C07D5D /* ZYPermissionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPermissionTool.m; sourceTree = "<group>"; };
+		5F8FE693248A3DD400C07D5D /* ZYPermissionSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPermissionSetting.m; sourceTree = "<group>"; };
+		5F8FE694248A3DD400C07D5D /* ZYPremissionConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPremissionConstant.h; sourceTree = "<group>"; };
+		5F8FE695248A3DD400C07D5D /* ZYPermissionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPermissionTool.h; sourceTree = "<group>"; };
+		5F8FE696248A3DD400C07D5D /* ZYPermissionSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPermissionSetting.h; sourceTree = "<group>"; };
+		5F8FE698248A3DD400C07D5D /* ZYLogTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLogTool.h; sourceTree = "<group>"; };
+		5F8FE699248A3DD400C07D5D /* ZYLogTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLogTool.m; sourceTree = "<group>"; };
+		5F8FE69B248A3DD400C07D5D /* ZYPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPlaceHolderTextView.m; sourceTree = "<group>"; };
+		5F8FE69C248A3DD400C07D5D /* ZYKeyboardTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYKeyboardTool.m; sourceTree = "<group>"; };
+		5F8FE69D248A3DD400C07D5D /* ZYValidateTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYValidateTextView.m; sourceTree = "<group>"; };
+		5F8FE69E248A3DD400C07D5D /* ZYKeyboardTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYKeyboardTool.h; sourceTree = "<group>"; };
+		5F8FE69F248A3DD400C07D5D /* ZYPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPlaceHolderTextView.h; sourceTree = "<group>"; };
+		5F8FE6A0248A3DD400C07D5D /* ZYValidateTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYValidateTextView.h; sourceTree = "<group>"; };
+		5F8FE6A2248A3DD400C07D5D /* ZYColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYColorDefine.h; sourceTree = "<group>"; };
+		5F8FE6A3248A3DD400C07D5D /* ZYFontDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFontDefine.h; sourceTree = "<group>"; };
+		5F8FE6A4248A3DD400C07D5D /* ZYDataDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYDataDefine.h; sourceTree = "<group>"; };
+		5F8FE6A5248A3DD400C07D5D /* ZYEnumDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYEnumDefine.h; sourceTree = "<group>"; };
+		5F8FE6A6248A3DD400C07D5D /* ZYUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYUIDefine.h; sourceTree = "<group>"; };
+		5F8FE6A8248A3DD400C07D5D /* ZYPathTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYPathTool.m; sourceTree = "<group>"; };
+		5F8FE6A9248A3DD400C07D5D /* ZYPathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYPathTool.h; sourceTree = "<group>"; };
+		5F8FE6AB248A3DD400C07D5D /* ZYLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLanguageTool.h; sourceTree = "<group>"; };
+		5F8FE6AC248A3DD400C07D5D /* ZYLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLanguageTool.m; sourceTree = "<group>"; };
+		5F8FE6AE248A3DD400C07D5D /* ZYFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFileTool.m; sourceTree = "<group>"; };
+		5F8FE6AF248A3DD400C07D5D /* ZYFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFileTool.h; sourceTree = "<group>"; };
+		5F8FE6B1248A3DD400C07D5D /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		5F8FE6B2248A3DD400C07D5D /* UIColor+ZYDarkColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYDarkColor.m"; sourceTree = "<group>"; };
+		5F8FE6B3248A3DD400C07D5D /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		5F8FE6B4248A3DD400C07D5D /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		5F8FE6B5248A3DD400C07D5D /* UILabel+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copy.h"; sourceTree = "<group>"; };
+		5F8FE6B6248A3DD400C07D5D /* NSString+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Addition.h"; sourceTree = "<group>"; };
+		5F8FE6B7248A3DD400C07D5D /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		5F8FE6B8248A3DD400C07D5D /* UITextView+WZB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WZB.m"; sourceTree = "<group>"; };
+		5F8FE6B9248A3DD400C07D5D /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		5F8FE6BA248A3DD400C07D5D /* UIColor+ZYDarkColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYDarkColor.h"; sourceTree = "<group>"; };
+		5F8FE6BB248A3DD400C07D5D /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		5F8FE6BC248A3DD400C07D5D /* UILabel+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copy.m"; sourceTree = "<group>"; };
+		5F8FE6BD248A3DD400C07D5D /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		5F8FE6BE248A3DD400C07D5D /* UITextView+WZB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+WZB.h"; sourceTree = "<group>"; };
+		5F8FE6BF248A3DD400C07D5D /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		5F8FE6C0248A3DD400C07D5D /* NSString+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Addition.m"; sourceTree = "<group>"; };
+		5F8FE6C3248A3DD400C07D5D /* ZYBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseView.h; sourceTree = "<group>"; };
+		5F8FE6C4248A3DD400C07D5D /* ZYBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseView.m; sourceTree = "<group>"; };
+		5F8FE6C6248A3DD400C07D5D /* ZYBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseViewController.h; sourceTree = "<group>"; };
+		5F8FE6C7248A3DD400C07D5D /* ZYBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseViewController.m; sourceTree = "<group>"; };
+		5F8FE6C9248A3DD400C07D5D /* ZYBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBaseModel.m; sourceTree = "<group>"; };
+		5F8FE6CA248A3DD400C07D5D /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		5F8FE6CC248A3DD500C07D5D /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		5F8FE6CD248A3DD500C07D5D /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		5F8FE6CE248A3DD500C07D5D /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		5F8FE6CF248A3DD500C07D5D /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		5F8FE6D0248A3DD500C07D5D /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		5F8FE6D1248A3DD500C07D5D /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		5F8FE6D2248A3DD500C07D5D /* ZYBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBaseModel.h; sourceTree = "<group>"; };
+		5F8FE6D4248A3DD500C07D5D /* ZYBasePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYBasePresenter.m; sourceTree = "<group>"; };
+		5F8FE6D5248A3DD500C07D5D /* ZYBasePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYBasePresenter.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYBaseUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYBaseUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,6 +180,198 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F8FE68C248A3DD400C07D5D /* BaseModule */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE68D248A3DD400C07D5D /* Utils */,
+				5F8FE6C1248A3DD400C07D5D /* BaseClass */,
+			);
+			path = BaseModule;
+			sourceTree = "<group>";
+		};
+		5F8FE68D248A3DD400C07D5D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE68E248A3DD400C07D5D /* DeviceTool */,
+				5F8FE691248A3DD400C07D5D /* PermissionTool */,
+				5F8FE697248A3DD400C07D5D /* LogTool */,
+				5F8FE69A248A3DD400C07D5D /* KeyboardTool */,
+				5F8FE6A1248A3DD400C07D5D /* Macro */,
+				5F8FE6A7248A3DD400C07D5D /* PathTool */,
+				5F8FE6AA248A3DD400C07D5D /* MutipleLanguageTool */,
+				5F8FE6AD248A3DD400C07D5D /* FileTool */,
+				5F8FE6B0248A3DD400C07D5D /* Categorys */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		5F8FE68E248A3DD400C07D5D /* DeviceTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE68F248A3DD400C07D5D /* ZYDeviceTool.m */,
+				5F8FE690248A3DD400C07D5D /* ZYDeviceTool.h */,
+			);
+			path = DeviceTool;
+			sourceTree = "<group>";
+		};
+		5F8FE691248A3DD400C07D5D /* PermissionTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE692248A3DD400C07D5D /* ZYPermissionTool.m */,
+				5F8FE693248A3DD400C07D5D /* ZYPermissionSetting.m */,
+				5F8FE694248A3DD400C07D5D /* ZYPremissionConstant.h */,
+				5F8FE695248A3DD400C07D5D /* ZYPermissionTool.h */,
+				5F8FE696248A3DD400C07D5D /* ZYPermissionSetting.h */,
+			);
+			path = PermissionTool;
+			sourceTree = "<group>";
+		};
+		5F8FE697248A3DD400C07D5D /* LogTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE698248A3DD400C07D5D /* ZYLogTool.h */,
+				5F8FE699248A3DD400C07D5D /* ZYLogTool.m */,
+			);
+			path = LogTool;
+			sourceTree = "<group>";
+		};
+		5F8FE69A248A3DD400C07D5D /* KeyboardTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE69B248A3DD400C07D5D /* ZYPlaceHolderTextView.m */,
+				5F8FE69C248A3DD400C07D5D /* ZYKeyboardTool.m */,
+				5F8FE69D248A3DD400C07D5D /* ZYValidateTextView.m */,
+				5F8FE69E248A3DD400C07D5D /* ZYKeyboardTool.h */,
+				5F8FE69F248A3DD400C07D5D /* ZYPlaceHolderTextView.h */,
+				5F8FE6A0248A3DD400C07D5D /* ZYValidateTextView.h */,
+			);
+			path = KeyboardTool;
+			sourceTree = "<group>";
+		};
+		5F8FE6A1248A3DD400C07D5D /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6A2248A3DD400C07D5D /* ZYColorDefine.h */,
+				5F8FE6A3248A3DD400C07D5D /* ZYFontDefine.h */,
+				5F8FE6A4248A3DD400C07D5D /* ZYDataDefine.h */,
+				5F8FE6A5248A3DD400C07D5D /* ZYEnumDefine.h */,
+				5F8FE6A6248A3DD400C07D5D /* ZYUIDefine.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		5F8FE6A7248A3DD400C07D5D /* PathTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6A8248A3DD400C07D5D /* ZYPathTool.m */,
+				5F8FE6A9248A3DD400C07D5D /* ZYPathTool.h */,
+			);
+			path = PathTool;
+			sourceTree = "<group>";
+		};
+		5F8FE6AA248A3DD400C07D5D /* MutipleLanguageTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6AB248A3DD400C07D5D /* ZYLanguageTool.h */,
+				5F8FE6AC248A3DD400C07D5D /* ZYLanguageTool.m */,
+			);
+			path = MutipleLanguageTool;
+			sourceTree = "<group>";
+		};
+		5F8FE6AD248A3DD400C07D5D /* FileTool */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6AE248A3DD400C07D5D /* ZYFileTool.m */,
+				5F8FE6AF248A3DD400C07D5D /* ZYFileTool.h */,
+			);
+			path = FileTool;
+			sourceTree = "<group>";
+		};
+		5F8FE6B0248A3DD400C07D5D /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6B1248A3DD400C07D5D /* NSObject+Additions.m */,
+				5F8FE6B2248A3DD400C07D5D /* UIColor+ZYDarkColor.m */,
+				5F8FE6B3248A3DD400C07D5D /* NSDictionary+Additions.m */,
+				5F8FE6B4248A3DD400C07D5D /* UIView+Addition.m */,
+				5F8FE6B5248A3DD400C07D5D /* UILabel+Copy.h */,
+				5F8FE6B6248A3DD400C07D5D /* NSString+Addition.h */,
+				5F8FE6B7248A3DD400C07D5D /* NSData+CommonCrypto.h */,
+				5F8FE6B8248A3DD400C07D5D /* UITextView+WZB.m */,
+				5F8FE6B9248A3DD400C07D5D /* NSDictionary+Additions.h */,
+				5F8FE6BA248A3DD400C07D5D /* UIColor+ZYDarkColor.h */,
+				5F8FE6BB248A3DD400C07D5D /* NSObject+Additions.h */,
+				5F8FE6BC248A3DD400C07D5D /* UILabel+Copy.m */,
+				5F8FE6BD248A3DD400C07D5D /* UIView+Addition.h */,
+				5F8FE6BE248A3DD400C07D5D /* UITextView+WZB.h */,
+				5F8FE6BF248A3DD400C07D5D /* NSData+CommonCrypto.m */,
+				5F8FE6C0248A3DD400C07D5D /* NSString+Addition.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		5F8FE6C1248A3DD400C07D5D /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6C2248A3DD400C07D5D /* BaseView */,
+				5F8FE6C5248A3DD400C07D5D /* BaseViewController */,
+				5F8FE6C8248A3DD400C07D5D /* BaseModel */,
+				5F8FE6D3248A3DD500C07D5D /* BasePresenter */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		5F8FE6C2248A3DD400C07D5D /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6C3248A3DD400C07D5D /* ZYBaseView.h */,
+				5F8FE6C4248A3DD400C07D5D /* ZYBaseView.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		5F8FE6C5248A3DD400C07D5D /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6C6248A3DD400C07D5D /* ZYBaseViewController.h */,
+				5F8FE6C7248A3DD400C07D5D /* ZYBaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		5F8FE6C8248A3DD400C07D5D /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6C9248A3DD400C07D5D /* ZYBaseModel.m */,
+				5F8FE6CA248A3DD400C07D5D /* TestModel.h */,
+				5F8FE6CB248A3DD400C07D5D /* YYModel */,
+				5F8FE6D1248A3DD500C07D5D /* TestModel.m */,
+				5F8FE6D2248A3DD500C07D5D /* ZYBaseModel.h */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		5F8FE6CB248A3DD400C07D5D /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6CC248A3DD500C07D5D /* YYClassInfo.h */,
+				5F8FE6CD248A3DD500C07D5D /* YYModel.h */,
+				5F8FE6CE248A3DD500C07D5D /* NSObject+YYModel.m */,
+				5F8FE6CF248A3DD500C07D5D /* YYClassInfo.m */,
+				5F8FE6D0248A3DD500C07D5D /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		5F8FE6D3248A3DD500C07D5D /* BasePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				5F8FE6D4248A3DD500C07D5D /* ZYBasePresenter.m */,
+				5F8FE6D5248A3DD500C07D5D /* ZYBasePresenter.h */,
+			);
+			path = BasePresenter;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +413,7 @@
 				5F8FE689248A386200C07D5D /* DYTestModel.m */,
 				6003F59C195388D20070C39A /* ZYAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZYAppDelegate.m */,
+				5F8FE68C248A3DD400C07D5D /* BaseModule */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZYViewController.h */,
 				6003F5A6195388D20070C39A /* ZYViewController.m */,
@@ -369,10 +644,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8FE6EA248A3DD500C07D5D /* ZYBaseModel.m in Sources */,
+				5F8FE6E0248A3DD500C07D5D /* NSObject+Additions.m in Sources */,
 				6003F59E195388D20070C39A /* ZYAppDelegate.m in Sources */,
+				5F8FE6EE248A3DD500C07D5D /* ZYBasePresenter.m in Sources */,
+				5F8FE6DD248A3DD500C07D5D /* ZYPathTool.m in Sources */,
+				5F8FE6DA248A3DD500C07D5D /* ZYPlaceHolderTextView.m in Sources */,
+				5F8FE6D9248A3DD500C07D5D /* ZYLogTool.m in Sources */,
+				5F8FE6DF248A3DD500C07D5D /* ZYFileTool.m in Sources */,
+				5F8FE6E9248A3DD500C07D5D /* ZYBaseViewController.m in Sources */,
+				5F8FE6DB248A3DD500C07D5D /* ZYKeyboardTool.m in Sources */,
+				5F8FE6DE248A3DD500C07D5D /* ZYLanguageTool.m in Sources */,
 				6003F5A7195388D20070C39A /* ZYViewController.m in Sources */,
+				5F8FE6E4248A3DD500C07D5D /* UITextView+WZB.m in Sources */,
+				5F8FE6E8248A3DD500C07D5D /* ZYBaseView.m in Sources */,
+				5F8FE6EB248A3DD500C07D5D /* NSObject+YYModel.m in Sources */,
+				5F8FE6D6248A3DD500C07D5D /* ZYDeviceTool.m in Sources */,
 				5F8FE68B248A386200C07D5D /* DYTestModel.m in Sources */,
+				5F8FE6E2248A3DD500C07D5D /* NSDictionary+Additions.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				5F8FE6E1248A3DD500C07D5D /* UIColor+ZYDarkColor.m in Sources */,
+				5F8FE6ED248A3DD500C07D5D /* TestModel.m in Sources */,
+				5F8FE6E3248A3DD500C07D5D /* UIView+Addition.m in Sources */,
+				5F8FE6D8248A3DD500C07D5D /* ZYPermissionSetting.m in Sources */,
+				5F8FE6E5248A3DD500C07D5D /* UILabel+Copy.m in Sources */,
+				5F8FE6D7248A3DD500C07D5D /* ZYPermissionTool.m in Sources */,
+				5F8FE6DC248A3DD500C07D5D /* ZYValidateTextView.m in Sources */,
+				5F8FE6E6248A3DD500C07D5D /* NSData+CommonCrypto.m in Sources */,
+				5F8FE6EC248A3DD500C07D5D /* YYClassInfo.m in Sources */,
+				5F8FE6E7248A3DD500C07D5D /* NSString+Addition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

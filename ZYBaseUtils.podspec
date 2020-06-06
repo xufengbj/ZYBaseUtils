@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYBaseUtils'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '自己封装的基础类库调用'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ZYBaseUtils/Classes/**/*'
+  
+  s.default_subspec = 'Core'
+  s.subspec 'Core' do |core|
+  core.source_files = 'ZYBaseUtils/Core/*.{h,m}'
+  end
   
   # s.resource_bundles = {
   #   'ZYBaseUtils' => ['ZYBaseUtils/Assets/*.png']
